@@ -21,9 +21,5 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
-/database
-*.lock
-vite.config.js
-phpunit.xml
-package-lock.json
-package.json
+/database.sqlite
+
