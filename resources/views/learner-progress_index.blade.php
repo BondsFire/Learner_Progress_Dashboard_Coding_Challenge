@@ -138,22 +138,16 @@ var courseProgress = <?php echo json_encode($progress); ?>;
 var courseFilter = <?php echo json_encode($courseFilter); ?>;
 var tableData= []
 
-// console.log(learnerData)
-// console.log(userEnrolment)
-// console.log(userCourses)
-console.log(courseProgress)
-console.log(courseFilter)
+
 
 function filterLearnersByCourse(newCourseFilter) {
     
   learnerList = [] 
 
-  console.log(newCourseFilter)
     
     
   if(newCourseFilter != null && newCourseFilter != ''){
     selectedCourse = userCourses.find(course => course.name === newCourseFilter)
-    console.log(selectedCourse)
     userEnrolment.forEach(enrolment => {
       if(enrolment.course_id === selectedCourse.id){
         foundLearner = learnerData.find(learner => learner.id === enrolment.learner_id)

@@ -9,13 +9,6 @@ use App\Models\Course;
 
 class LearnerProgressController extends Controller
 {
-    function debug_to_console($data) {
-    $output = $data;
-    if (is_array($output))
-        $output = implode(',', $output);
-
-        return $output;
-    }
 
 
     //
