@@ -22,9 +22,9 @@ yarn-error.log
 /.vscode
 /.zed
 /database
-*.json
 *.lock
-composer.json
 vite.config.js
 phpunit.xml
 artisan
+package-lock.json
+package.json

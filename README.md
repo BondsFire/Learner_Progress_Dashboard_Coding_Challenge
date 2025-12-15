@@ -1,10 +1,12 @@
 # Learner Progress Dashboard - Coding Challenge
 
-sudo apt install php
+- Run `sudo apt-get install php8.2`
+- Run `sudo apt update && sudo apt upgrade -y`
 sudo apt install composer
-Install php 8.2 https://php.watch/articles/install-php82-ubuntu-debian
-install php8.2-xml
-install php8.2-sqlite
+Install php 8.2 instructions https://php.watch/articles/install-php82-ubuntu-debian
+Run `sudo apt-get install php8.2-xml`
+Run `sudo apt-get install php8.2-sqlite`
+Run `sudo apt install composer`
 
 ## Getting Started
 
