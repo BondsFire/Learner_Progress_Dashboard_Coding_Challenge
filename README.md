@@ -1,15 +1,19 @@
 # Learner Progress Dashboard - Coding Challenge
 
+
+
+## Getting Started
+
 - Run `sudo apt-get install php8.2`
 - Run `sudo apt update && sudo apt upgrade -y`
-sudo apt install composer
-Install php 8.2 instructions https://php.watch/articles/install-php82-ubuntu-debian
+
+- Install php 8.2 
+- - instructions: https://php.watch/articles/install-php82-ubuntu-debian
+
 - Run `sudo apt-get install php8.2-xml`
 - Run `sudo apt-get install php8.2-sqlite`
 - Run `sudo apt-get install php8.2-intl`
 - Run `sudo apt install composer`
-
-## Getting Started
 
 1. Run `composer install`
 2. Configure your `.env` file from the example
